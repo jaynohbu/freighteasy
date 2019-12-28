@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-freighteasy-dev-81247-authRole",
+            "UnauthRoleArn": "arn:aws:iam::503383359264:role/amplify-freighteasy-dev-81247-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::503383359264:role/amplify-freighteasy-dev-81247-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-freighteasy-dev-81247-deployment",
+            "UnauthRoleName": "amplify-freighteasy-dev-81247-unauthRole",
+            "StackName": "amplify-freighteasy-dev-81247",
+            "StackId": "arn:aws:cloudformation:us-west-2:503383359264:stack/amplify-freighteasy-dev-81247/ba8e8ea0-28c3-11ea-84fc-0aaf12ba6aa0",
+            "AmplifyAppId": "dhi58582pmjnk"
+        },
+        "categories": {
+            "auth": {
+                "freighteasy262263ab": {}
+            }
+        }
+    }
+}

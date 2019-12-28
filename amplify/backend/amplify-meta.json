@@ -1,0 +1,59 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-freighteasy-dev-81247-authRole",
+            "UnauthRoleArn": "arn:aws:iam::503383359264:role/amplify-freighteasy-dev-81247-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::503383359264:role/amplify-freighteasy-dev-81247-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-freighteasy-dev-81247-deployment",
+            "UnauthRoleName": "amplify-freighteasy-dev-81247-unauthRole",
+            "StackName": "amplify-freighteasy-dev-81247",
+            "StackId": "arn:aws:cloudformation:us-west-2:503383359264:stack/amplify-freighteasy-dev-81247/ba8e8ea0-28c3-11ea-84fc-0aaf12ba6aa0",
+            "AmplifyAppId": "dhi58582pmjnk"
+        }
+    },
+    "hosting": {
+        "S3AndCloudFront": {
+            "service": "S3AndCloudFront",
+            "providerPlugin": "awscloudformation",
+            "providerMetadata": {
+                "s3TemplateURL": "https://s3.amazonaws.com/amplify-freighteasy-dev-81247-deployment/amplify-cfn-templates/hosting/template.json",
+                "logicalId": "hostingS3AndCloudFront"
+            },
+            "lastPushTimeStamp": "2019-12-28T01:52:52.399Z",
+            "output": {
+                "CloudFrontSecureURL": "https://d2z0vvfx53h2io.cloudfront.net",
+                "S3BucketSecureURL": "https://freighteasy-20191227081430-hostingbucket-dev.s3.amazonaws.com",
+                "CloudFrontOriginAccessIdentity": "ETJB56GN1C21G",
+                "WebsiteURL": "http://freighteasy-20191227081430-hostingbucket-dev.s3-website-us-west-2.amazonaws.com",
+                "CloudFrontDistributionID": "E8QBH1RM1E05E",
+                "Region": "us-west-2",
+                "HostingBucketName": "freighteasy-20191227081430-hostingbucket-dev",
+                "CloudFrontDomainName": "d2z0vvfx53h2io.cloudfront.net"
+            },
+            "lastPushDirHash": "x9KFLoLU9+FcocJRJrvhzD4icmo="
+        }
+    },
+    "auth": {
+        "freighteasy262263ab": {
+            "service": "Cognito",
+            "providerPlugin": "awscloudformation",
+            "dependsOn": [],
+            "providerMetadata": {
+                "s3TemplateURL": "https://s3.amazonaws.com/amplify-freighteasy-dev-81247-deployment/amplify-cfn-templates/auth/freighteasy262263ab-cloudformation-template.yml",
+                "logicalId": "authfreighteasy262263ab"
+            },
+            "lastPushTimeStamp": "2019-12-28T01:52:52.399Z",
+            "output": {
+                "AppClientSecret": "8udl9hc9iv7ob3cnhr4vcefslqv7drj8c1v6qesv7tn5vunpp3g",
+                "UserPoolId": "us-west-2_CnH87QJKT",
+                "AppClientIDWeb": "eounetofjuuut7l75msd00vse",
+                "AppClientID": "1oaralogar5rku48ts3hobdvb",
+                "IdentityPoolId": "us-west-2:6cdafc3a-1490-4861-b217-f75e9b0dd7a0",
+                "IdentityPoolName": "freighteasy262263ab_identitypool_262263ab__dev",
+                "UserPoolName": "freighteasy262263ab_userpool_262263ab"
+            },
+            "lastPushDirHash": "XUq0eQ3a/fpHMxM5HrVt9l39JD0="
+        }
+    }
+}

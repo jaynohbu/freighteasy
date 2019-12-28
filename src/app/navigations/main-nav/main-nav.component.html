@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="javascript:void(0)">
+      FreightEasy
+    </a>
+  
+    <button class="navbar-toggler" type="button" [routerLink]="['/dashboard']"
+            (click)="toggleNavbar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+  
+    <div class="collapse navbar-collapse"
+         [ngClass]="{ 'show': navbarOpen }">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link"  href="javascript:void(0)" [routerLink]="['/international']">International</a>
+        </li>
+  
+        <li class="nav-item">
+          <a class="nav-link"  href="javascript:void(0)" [routerLink]="['/domestic']" >Domestic</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link"  href="javascript:void(0)"[routerLink]="['/accounting']" >Accounting</a>
+          </li>
+      </ul>
+    </div>
+  </nav>

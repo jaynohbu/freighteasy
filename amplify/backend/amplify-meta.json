@@ -20,7 +20,7 @@
                 "s3TemplateURL": "https://s3.amazonaws.com/amplify-freighteasy-dev-81247-deployment/amplify-cfn-templates/hosting/template.json",
                 "logicalId": "hostingS3AndCloudFront"
             },
-            "lastPushTimeStamp": "2019-12-28T01:52:52.399Z",
+            "lastPushTimeStamp": "2019-12-28T02:00:08.148Z",
             "output": {
                 "CloudFrontSecureURL": "https://d2z0vvfx53h2io.cloudfront.net",
                 "S3BucketSecureURL": "https://freighteasy-20191227081430-hostingbucket-dev.s3.amazonaws.com",
@@ -43,7 +43,7 @@
                 "s3TemplateURL": "https://s3.amazonaws.com/amplify-freighteasy-dev-81247-deployment/amplify-cfn-templates/auth/freighteasy262263ab-cloudformation-template.yml",
                 "logicalId": "authfreighteasy262263ab"
             },
-            "lastPushTimeStamp": "2019-12-28T01:52:52.399Z",
+            "lastPushTimeStamp": "2019-12-28T02:00:08.149Z",
             "output": {
                 "AppClientSecret": "8udl9hc9iv7ob3cnhr4vcefslqv7drj8c1v6qesv7tn5vunpp3g",
                 "UserPoolId": "us-west-2_CnH87QJKT",
